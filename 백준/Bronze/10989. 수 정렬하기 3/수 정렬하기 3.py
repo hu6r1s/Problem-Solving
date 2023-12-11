@@ -8,5 +8,6 @@ for _ in range(n):
     i = int(input())
     count[i] += 1
 for i in range(10001):
-    for _ in range(count[i]):
-        print(i)
+    if count[i] != 0:
+        for _ in range(count[i]):
+            print(i)
