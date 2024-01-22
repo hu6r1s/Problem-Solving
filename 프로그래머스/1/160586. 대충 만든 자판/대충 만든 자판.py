@@ -8,7 +8,7 @@ def solution(keymap, targets):
                     match[value] = idx + 1
             else:
                 match[value] = idx + 1
-    
+                
     for target in targets:
         count = 0
         for t in target:
