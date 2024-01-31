@@ -26,10 +26,11 @@ def bfs():
         for i in range(4):
             nx = x + dx[i]
             ny = y + dy[i]
-            if (nx < 0 or nx >= r or ny < 0 or ny >= c) or graph[nx][ny] == "#" or f_time[nx][ny]:
+            if nx < 0 or nx >= r or ny < 0 or ny >= c:
                 continue
-            f_time[nx][ny] = f_time[x][y] + 1
-            fire.append([nx, ny])
+            if graph[nx][ny] != "#" and not f_time[nx][ny]:
+                f_time[nx][ny] = f_time[x][y] + 1
+                fire.append([nx, ny])
 
     while jihoon:
         x, y = jihoon.popleft()
@@ -40,10 +41,9 @@ def bfs():
                 return j_time[x][y]
             if graph[nx][ny] == "#" or j_time[nx][ny]:
                 continue
-            if f_time[nx][ny] and f_time[nx][ny] <= j_time[x][y] + 1:
-                continue
-            j_time[nx][ny] = j_time[x][y] + 1
-            jihoon.append([nx, ny])
+            if not f_time[nx][ny] or f_time[nx][ny] > j_time[x][y] + 1:
+                j_time[nx][ny] = j_time[x][y] + 1
+                jihoon.append([nx, ny])
     return "IMPOSSIBLE"
 
 print(bfs())
