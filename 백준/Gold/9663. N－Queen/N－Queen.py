@@ -11,15 +11,15 @@ def solve(k):
         return
 
     for i in range(n):
-        if visited1[i] or visited2[i+k] or visited3[k-i+n-1]:
+        if visited1[i] or visited2[i+k] or visited3[i-k]:
             continue
         visited1[i] = 1
         visited2[i+k] = 1
-        visited3[k-i+n-1] = 1
+        visited3[i-k] = 1
         solve(k+1)
         visited1[i] = 0
         visited2[i+k] = 0
-        visited3[k-i+n-1] = 0
+        visited3[i-k] = 0
 
 solve(0)
 print(count)
