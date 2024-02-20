@@ -1,9 +1,7 @@
 n = int(input())
-s = []
-for _ in range(n):
-    s.append(int(input()))
-s.sort()
+arr = [int(input()) for _ in range(n)]
+arr.sort(reverse=True)
 result = []
 for i in range(n):
-    result.append(s[i] * (n - i))
+    result.append(arr[i] * (i+1))
 print(max(result))
