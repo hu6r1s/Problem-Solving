@@ -2,12 +2,13 @@ import math
 import string
 
 def convert(n, k):
-    tmp = string.digits+string.ascii_lowercase
-    q, r = divmod(n, k)
-    if q == 0:
-        return tmp[r]
-    else:
-        return convert(q, k) + tmp[r]
+    rev_base = ''
+
+    while n > 0:
+        n, mod = divmod(n, k)
+        rev_base += str(mod)
+
+    return rev_base[::-1] 
     
 def isPrime(n):
     if n == 0 or n == 1:
