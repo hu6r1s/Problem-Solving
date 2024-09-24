@@ -1,7 +1,4 @@
-import sys
-import math
-input = sys.stdin.readline
-
-n = int(input())
-m = sorted(list(map(int, input().split())))
-print(m[0] * m[-1])
+cnt = int(input())
+lst = list(map(int, input().split()))
+lst.sort()
+print(lst[0] * lst[-1])
