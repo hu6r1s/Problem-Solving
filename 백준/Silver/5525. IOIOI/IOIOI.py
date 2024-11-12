@@ -1,16 +1,16 @@
 n = int(input())
 m = int(input())
-p = ""
-for i in range(2 * n + 1):
-    if i % 2:
-        p += "O"
-    else:
-        p += "I"
-
 s = input()
-cnt = 0
-for i in range(m-len(p)+1):
-    if p == s[i:len(p)+i]:
+cnt, i, result = 0, 0, 0
+while i < m - 2:
+    if s[i:i+3] == "IOI":
+        i += 2
         cnt += 1
+        if cnt == n:
+            result += 1
+            cnt -= 1
+    else:
+        i += 1
+        cnt = 0
 
-print(cnt)
+print(result)
