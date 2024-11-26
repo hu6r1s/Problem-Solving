@@ -15,7 +15,6 @@ class Solution:
                 value -= symbol[s[i]]
             else:
                 value += symbol[s[i]]
-            print(value)
         value += symbol[s[-1]]
         return value
 # 문자열 뒤집기
