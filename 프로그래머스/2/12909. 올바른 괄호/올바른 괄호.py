@@ -1,15 +1,14 @@
 def solution(s):
-    s_li = list(s)
     stack = []
-    for i in s_li:
-        if i == "(":
-            stack.append(i)
+    for string in s:
+        if string == "(":
+            stack.append(string)
         else:
-            if stack:
-                stack.pop()
-            else:
+            if not stack:
                 return False
-    if stack:
-        return False
+            stack.pop()
     else:
-        return True
+        if stack:
+            return False
+        else:
+            return True
