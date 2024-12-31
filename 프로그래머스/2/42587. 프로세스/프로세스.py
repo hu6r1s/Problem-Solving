@@ -1,14 +1,15 @@
 from collections import deque
 def solution(priorities, location):
-    resource = deque(enumerate(priorities))
-    result = []
-    while resource:
-        q = resource.popleft()
-        if any(q[1] < p[1] for p in resource):
-            resource.append(q)
-        else:
-            result.append(q)
+    queue = deque(enumerate(priorities))
+    process = []
     
-    for i in result:
-        if i[0] == location:
-            return result.index(i)+1
+    while queue:
+        q = queue.popleft()
+        if any(q[1] < v[1] for v in queue):
+            queue.append(q)
+        else:
+            process.append(q[0])
+    
+    for p in process:
+        if p == location:
+            return process.index(p) + 1
