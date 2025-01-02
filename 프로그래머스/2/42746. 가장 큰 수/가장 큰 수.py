@@ -1,4 +1,2 @@
 def solution(numbers):
-    numbers = list(map(str, numbers))
-    numbers.sort(reverse=True, key=lambda x: x*4)
-    return str(int("".join(numbers)))
+    return str(int("".join(map(str, sorted(numbers, key=lambda x: str(x)*4, reverse=True)))))
