@@ -1,16 +1,14 @@
+from collections import deque
+
 def solution(cacheSize, cities):
-    cache = []
-    result = 0
-    if cacheSize == 0:
-        return len(cities) * 5
-    for city in cities:
-        city = city.lower()
-        if city in cache:
-            cache.remove(city)
-            result += 1
+    cache = deque(maxlen=cacheSize)
+    time = 0
+    for i in cities:
+        s = i.lower()
+        if s in cache:
+            cache.remove(s)
+            time += 1
         else:
-            if len(cache) >= cacheSize:
-                cache.pop(0)
-            result += 5
-        cache.append(city)
-    return result
+            time += 5
+        cache.append(s)
+    return time
