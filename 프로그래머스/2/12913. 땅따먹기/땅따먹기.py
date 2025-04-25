@@ -7,9 +7,6 @@ def solution(land):
             dp[i][j] = max(dp[i-1][k] + land[i][j] for k in range(4) if j != k)
     return max(dp[-1])
     
-    
-    
-    
 # dp로 풀이
 # 1로 갔을 때 1 + 6, 1 + 7, 1 + 8 
 # 2로 갔을 때 2 + 5, 2 + 7, 2 + 8 
