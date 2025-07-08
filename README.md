@@ -16,4 +16,12 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/hu6r1s/Problem-Solving/tree/master/0013-roman-to-integer) |
+## Array
+|  |
+| ------- |
+| [1603-running-sum-of-1d-array](https://github.com/hu6r1s/Problem-Solving/tree/master/1603-running-sum-of-1d-array) |
+## Prefix Sum
+|  |
+| ------- |
+| [1603-running-sum-of-1d-array](https://github.com/hu6r1s/Problem-Solving/tree/master/1603-running-sum-of-1d-array) |
 <!---LeetCode Topics End-->
