@@ -6,9 +6,7 @@ class Solution {
         for (int i = 0; i < accounts.length; i++) {
             int max_num = Arrays.stream(accounts[i]).sum();
 
-            if (result < max_num) {
-                result = max_num;
-            }
+            result = Math.max(result, max_num);
         }
         return result;
     }
