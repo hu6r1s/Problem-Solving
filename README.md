@@ -11,6 +11,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/hu6r1s/Problem-Solving/tree/master/0013-roman-to-integer) |
+| [2383-add-two-integers](https://github.com/hu6r1s/Problem-Solving/tree/master/2383-add-two-integers) |
 ## String
 |  |
 | ------- |
