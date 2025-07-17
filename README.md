@@ -6,6 +6,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/hu6r1s/Problem-Solving/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/hu6r1s/Problem-Solving/tree/master/0013-roman-to-integer) |
 ## Math
 |  |
@@ -19,6 +20,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/hu6r1s/Problem-Solving/tree/master/0001-two-sum) |
 | [1603-running-sum-of-1d-array](https://github.com/hu6r1s/Problem-Solving/tree/master/1603-running-sum-of-1d-array) |
 | [1791-richest-customer-wealth](https://github.com/hu6r1s/Problem-Solving/tree/master/1791-richest-customer-wealth) |
 ## Prefix Sum
