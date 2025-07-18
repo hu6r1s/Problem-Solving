@@ -18,6 +18,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | ------- |
 | [0013-roman-to-integer](https://github.com/hu6r1s/Problem-Solving/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/hu6r1s/Problem-Solving/tree/master/0014-longest-common-prefix) |
+| [0020-valid-parentheses](https://github.com/hu6r1s/Problem-Solving/tree/master/0020-valid-parentheses) |
 ## Array
 |  |
 | ------- |
@@ -37,4 +38,8 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/hu6r1s/Problem-Solving/tree/master/0014-longest-common-prefix) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/hu6r1s/Problem-Solving/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
