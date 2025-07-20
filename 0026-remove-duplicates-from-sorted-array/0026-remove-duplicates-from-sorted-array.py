@@ -1,6 +1,5 @@
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
-        expectedNums = []
         k = 0
 
         for i in range(1, len(nums)):
