@@ -8,6 +8,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | ------- |
 | [0001-two-sum](https://github.com/hu6r1s/Problem-Solving/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/hu6r1s/Problem-Solving/tree/master/0013-roman-to-integer) |
+| [0128-longest-consecutive-sequence](https://github.com/hu6r1s/Problem-Solving/tree/master/0128-longest-consecutive-sequence) |
 | [0217-contains-duplicate](https://github.com/hu6r1s/Problem-Solving/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/hu6r1s/Problem-Solving/tree/master/0347-top-k-frequent-elements) |
 ## Math
@@ -30,6 +31,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | [0026-remove-duplicates-from-sorted-array](https://github.com/hu6r1s/Problem-Solving/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/hu6r1s/Problem-Solving/tree/master/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/hu6r1s/Problem-Solving/tree/master/0035-search-insert-position) |
+| [0128-longest-consecutive-sequence](https://github.com/hu6r1s/Problem-Solving/tree/master/0128-longest-consecutive-sequence) |
 | [0217-contains-duplicate](https://github.com/hu6r1s/Problem-Solving/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/hu6r1s/Problem-Solving/tree/master/0347-top-k-frequent-elements) |
 | [1603-running-sum-of-1d-array](https://github.com/hu6r1s/Problem-Solving/tree/master/1603-running-sum-of-1d-array) |
@@ -97,4 +99,8 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/hu6r1s/Problem-Solving/tree/master/0347-top-k-frequent-elements) |
+## Union Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/hu6r1s/Problem-Solving/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
