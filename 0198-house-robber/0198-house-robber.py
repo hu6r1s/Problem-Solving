@@ -8,13 +8,16 @@ class Solution:
         F[i] = max(nums[i] + F(i+2), F(i+1))
     """
     def rob(self, nums: List[int]) -> int:
-        memo = dict()
-        def dfs(start):
-            if start in memo:
-                return memo[start]
-            if start >= len(nums):
-                memo[start] = 0
-                return memo[start]
-            memo[start] = max(nums[start] + dfs(start + 2), dfs(start + 1))
-            return memo[start]
-        return dfs(0)
+        if not nums:
+            return 0
+        if len(nums) == 1:
+            return nums[0]
+
+        dp = [0] * len(nums)
+        dp[0] = nums[0]
+        dp[1] = max(dp[0], nums[1])
+
+        for i in range(2, len(nums)):
+            dp[i] = max(dp[i-2] + nums[i], dp[i-1])
+        
+        return dp[-1]
