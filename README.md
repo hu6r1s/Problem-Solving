@@ -16,6 +16,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/hu6r1s/Problem-Solving/tree/master/0013-roman-to-integer) |
+| [0070-climbing-stairs](https://github.com/hu6r1s/Problem-Solving/tree/master/0070-climbing-stairs) |
 | [2383-add-two-integers](https://github.com/hu6r1s/Problem-Solving/tree/master/2383-add-two-integers) |
 ## String
 |  |
@@ -110,5 +111,10 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/hu6r1s/Problem-Solving/tree/master/0070-climbing-stairs) |
 | [0198-house-robber](https://github.com/hu6r1s/Problem-Solving/tree/master/0198-house-robber) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/hu6r1s/Problem-Solving/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
