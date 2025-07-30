@@ -122,4 +122,20 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/hu6r1s/Problem-Solving/tree/master/0070-climbing-stairs) |
+## Tree
+|  |
+| ------- |
+| [0098-validate-binary-search-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0098-validate-binary-search-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [0098-validate-binary-search-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0098-validate-binary-search-tree) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0098-validate-binary-search-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0098-validate-binary-search-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0098-validate-binary-search-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0098-validate-binary-search-tree) |
 <!---LeetCode Topics End-->
