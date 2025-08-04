@@ -94,6 +94,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 ## Divide and Conquer
 |  |
 | ------- |
+| [0191-number-of-1-bits](https://github.com/hu6r1s/Problem-Solving/tree/master/0191-number-of-1-bits) |
 | [0347-top-k-frequent-elements](https://github.com/hu6r1s/Problem-Solving/tree/master/0347-top-k-frequent-elements) |
 ## Heap (Priority Queue)
 |  |
@@ -140,4 +141,8 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0098-validate-binary-search-tree) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0191-number-of-1-bits](https://github.com/hu6r1s/Problem-Solving/tree/master/0191-number-of-1-bits) |
 <!---LeetCode Topics End-->
