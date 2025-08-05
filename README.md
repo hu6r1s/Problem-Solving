@@ -36,6 +36,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | [0026-remove-duplicates-from-sorted-array](https://github.com/hu6r1s/Problem-Solving/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/hu6r1s/Problem-Solving/tree/master/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/hu6r1s/Problem-Solving/tree/master/0035-search-insert-position) |
+| [0039-combination-sum](https://github.com/hu6r1s/Problem-Solving/tree/master/0039-combination-sum) |
 | [0128-longest-consecutive-sequence](https://github.com/hu6r1s/Problem-Solving/tree/master/0128-longest-consecutive-sequence) |
 | [0198-house-robber](https://github.com/hu6r1s/Problem-Solving/tree/master/0198-house-robber) |
 | [0217-contains-duplicate](https://github.com/hu6r1s/Problem-Solving/tree/master/0217-contains-duplicate) |
@@ -145,4 +146,8 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0191-number-of-1-bits](https://github.com/hu6r1s/Problem-Solving/tree/master/0191-number-of-1-bits) |
+## Backtracking
+|  |
+| ------- |
+| [0039-combination-sum](https://github.com/hu6r1s/Problem-Solving/tree/master/0039-combination-sum) |
 <!---LeetCode Topics End-->
