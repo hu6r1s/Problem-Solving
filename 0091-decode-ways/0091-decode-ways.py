@@ -29,16 +29,25 @@ class Solution:
         """
         2. 재귀 + 메모리제이션
         """
-        memo = {len(s): 1}
-        def dfs(start):
-            if start in memo:
-                return memo[start]
-            if s[start] == "0":
-                memo[start] = 0
-            elif start + 1 < len(s) and int(s[start:start+2]) < 27:
-                memo[start] = dfs(start+1) + dfs(start+2)
-            else:
-                memo[start] = dfs(start+1)
+        # memo = {len(s): 1}
+        # def dfs(start):
+        #     if start in memo:
+        #         return memo[start]
+        #     if s[start] == "0":
+        #         memo[start] = 0
+        #     elif start + 1 < len(s) and int(s[start:start+2]) < 27:
+        #         memo[start] = dfs(start+1) + dfs(start+2)
+        #     else:
+        #         memo[start] = dfs(start+1)
 
-            return memo[start]
-        return dfs(0)
+        #     return memo[start]
+        # return dfs(0)
+        dp = [0] * len(s) + [1]
+        for i in range(len(s)-1, -1, -1):
+            if s[i] == "0":
+                dp[i] = 0
+            elif i + 1 < len(s) and int(s[i:i+2]) < 27:
+                dp[i] = dp[i+1] + dp[i+2]
+            else:
+                dp[i] = dp[i+1]
+        return dp[0]
