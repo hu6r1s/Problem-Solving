@@ -5,22 +5,17 @@ n, m = map(int, input().split())
 sx, sy = map(int, input().split())
 ex, ey = map(int, input().split())
 
-if sx % 2 and sy % 2:
-    if ex % 2 and ey % 2:
+if n == 1 or m == 1:
+    if sx == ex and sy == ey:
         print("YES")
     else:
         print("NO")
-elif not sx % 2 and not sy % 2:
-    if not ex % 2 and not ey % 2:
-        print("YES")
-    else:
-        print("NO")
-elif not sx % 2 or not sy % 2:
-    if not ex % 2 or not ey % 2:
-        print("YES")
-    else:
-        print("NO")
-
+elif (ex - sx) % 2 and (ey - sy) % 2:
+    print("YES")
+elif not (ex - sx) % 2 and not (sy - ey) % 2:
+    print("YES")
+else:
+    print("NO")
 #
 # 11 12 13
 # 21 22 23
