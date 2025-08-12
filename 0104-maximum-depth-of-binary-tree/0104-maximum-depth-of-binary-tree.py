@@ -28,18 +28,21 @@ class Solution:
         def dfs(n):
             stack = [n]
             max_depth = 0
-            stack = [(n, 1)]
+            visited = {root: 1}
 
             while stack:
-                node, depth = stack.pop()
+                node = stack.pop()
+                depth = visited[node]
                 max_depth = max(max_depth, depth)
                 if node.left:
-                    stack.append((node.left, depth + 1))
+                    visited[node.left] = depth + 1
+                    stack.append(node.left)
                 if node.right:
-                    stack.append((node.right, depth + 1))
+                    visited[node.right] = depth + 1
+                    stack.append(node.right)
             return max_depth
         
-        return bfs(root)
+        return dfs(root)
 
 
 """
