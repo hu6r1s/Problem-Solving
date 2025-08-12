@@ -1,3 +1,5 @@
+from collections import deque
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -8,18 +10,19 @@ class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
         if not root:
             return 0
+
         def bfs(n):
-            stack = [n]
+            queue = deque([n])
             depth = 0
 
-            while stack:
+            while queue:
                 depth += 1
-                for _ in range(len(stack)):
-                    node = stack.pop()
+                for _ in range(len(queue)):
+                    node = queue.popleft()
                     if node.left:
-                        stack.append(node.left)
+                        queue.append(node.left)
                     if node.right:
-                        stack.append(node.right)
+                        queue.append(node.right)
             return depth
 
         def dfs(n):
@@ -36,7 +39,7 @@ class Solution:
                     stack.append((node.right, depth + 1))
             return max_depth
         
-        return dfs(root)
+        return bfs(root)
 
 
 """
