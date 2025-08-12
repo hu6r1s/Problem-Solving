@@ -135,10 +135,12 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0098-validate-binary-search-tree) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0104-maximum-depth-of-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0098-validate-binary-search-tree) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0104-maximum-depth-of-binary-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -147,6 +149,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0098-validate-binary-search-tree) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0104-maximum-depth-of-binary-tree) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -155,4 +158,8 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/hu6r1s/Problem-Solving/tree/master/0039-combination-sum) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0104-maximum-depth-of-binary-tree) |
 <!---LeetCode Topics End-->
