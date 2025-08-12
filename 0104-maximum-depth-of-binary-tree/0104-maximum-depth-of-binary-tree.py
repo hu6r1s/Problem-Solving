@@ -28,7 +28,7 @@ class Solution:
         def dfs(n):
             stack = [n]
             max_depth = 0
-            visited = {root: 1}
+            visited = {n: 1}
 
             while stack:
                 node = stack.pop()
