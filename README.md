@@ -40,6 +40,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | [0039-combination-sum](https://github.com/hu6r1s/Problem-Solving/tree/master/0039-combination-sum) |
 | [0053-maximum-subarray](https://github.com/hu6r1s/Problem-Solving/tree/master/0053-maximum-subarray) |
 | [0128-longest-consecutive-sequence](https://github.com/hu6r1s/Problem-Solving/tree/master/0128-longest-consecutive-sequence) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/hu6r1s/Problem-Solving/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0198-house-robber](https://github.com/hu6r1s/Problem-Solving/tree/master/0198-house-robber) |
 | [0217-contains-duplicate](https://github.com/hu6r1s/Problem-Solving/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/hu6r1s/Problem-Solving/tree/master/0238-product-of-array-except-self) |
@@ -87,6 +88,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/hu6r1s/Problem-Solving/tree/master/0035-search-insert-position) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/hu6r1s/Problem-Solving/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 ## Sorting
 |  |
 | ------- |
