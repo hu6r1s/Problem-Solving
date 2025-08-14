@@ -25,6 +25,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | [0014-longest-common-prefix](https://github.com/hu6r1s/Problem-Solving/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/hu6r1s/Problem-Solving/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/hu6r1s/Problem-Solving/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0079-word-search](https://github.com/hu6r1s/Problem-Solving/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/hu6r1s/Problem-Solving/tree/master/0091-decode-ways) |
 | [0125-valid-palindrome](https://github.com/hu6r1s/Problem-Solving/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/hu6r1s/Problem-Solving/tree/master/0242-valid-anagram) |
@@ -39,6 +40,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | [0035-search-insert-position](https://github.com/hu6r1s/Problem-Solving/tree/master/0035-search-insert-position) |
 | [0039-combination-sum](https://github.com/hu6r1s/Problem-Solving/tree/master/0039-combination-sum) |
 | [0053-maximum-subarray](https://github.com/hu6r1s/Problem-Solving/tree/master/0053-maximum-subarray) |
+| [0079-word-search](https://github.com/hu6r1s/Problem-Solving/tree/master/0079-word-search) |
 | [0128-longest-consecutive-sequence](https://github.com/hu6r1s/Problem-Solving/tree/master/0128-longest-consecutive-sequence) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/hu6r1s/Problem-Solving/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0198-house-robber](https://github.com/hu6r1s/Problem-Solving/tree/master/0198-house-robber) |
@@ -55,6 +57,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 ## Matrix
 |  |
 | ------- |
+| [0079-word-search](https://github.com/hu6r1s/Problem-Solving/tree/master/0079-word-search) |
 | [1791-richest-customer-wealth](https://github.com/hu6r1s/Problem-Solving/tree/master/1791-richest-customer-wealth) |
 ## Trie
 |  |
@@ -141,6 +144,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/hu6r1s/Problem-Solving/tree/master/0079-word-search) |
 | [0098-validate-binary-search-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0098-validate-binary-search-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0104-maximum-depth-of-binary-tree) |
 ## Binary Search Tree
@@ -160,6 +164,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/hu6r1s/Problem-Solving/tree/master/0039-combination-sum) |
+| [0079-word-search](https://github.com/hu6r1s/Problem-Solving/tree/master/0079-word-search) |
 ## Breadth-First Search
 |  |
 | ------- |
