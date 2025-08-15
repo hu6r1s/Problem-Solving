@@ -25,6 +25,24 @@ class Solution:
             return -1
         return result
     """
+    """
+    - BFS를 사용하여 "동전 합"을 0에서 시작해 amount까지 도달하는 최소 단계를 탐색
+    - 큐의 원소: (cnt, total)
+        cnt   : 현재까지 사용한 동전 개수
+        total : 현재까지 만든 합
+    - visited 집합으로 이미 방문한 합을 중복 탐색하지 않게 함
+    - 첫 번째로 amount에 도달하는 순간이 최소 동전 개수 (BFS 특성상)
+    
+    시간 복잡도:
+    - 최악의 경우 모든 합(0 ~ amount)을 탐색하며,
+      각 합에서 최대 len(coins)개의 새로운 상태를 큐에 넣음
+    - O(amount × n), n = len(coins)
+
+    공간 복잡도:
+    - visited 집합: 최대 amount+1 크기
+    - 큐(queue): 최악의 경우 O(amount × n) 상태 저장 가능
+    - O(amount)
+    """
     def coinChange(self, coins: List[int], amount: int) -> int:
         def bfs():
             queue = deque([(0, 0)])
