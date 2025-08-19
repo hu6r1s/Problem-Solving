@@ -41,6 +41,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | [0039-combination-sum](https://github.com/hu6r1s/Problem-Solving/tree/master/0039-combination-sum) |
 | [0053-maximum-subarray](https://github.com/hu6r1s/Problem-Solving/tree/master/0053-maximum-subarray) |
 | [0079-word-search](https://github.com/hu6r1s/Problem-Solving/tree/master/0079-word-search) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/hu6r1s/Problem-Solving/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/hu6r1s/Problem-Solving/tree/master/0128-longest-consecutive-sequence) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/hu6r1s/Problem-Solving/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0198-house-robber](https://github.com/hu6r1s/Problem-Solving/tree/master/0198-house-robber) |
@@ -132,6 +133,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | [0053-maximum-subarray](https://github.com/hu6r1s/Problem-Solving/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/hu6r1s/Problem-Solving/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/hu6r1s/Problem-Solving/tree/master/0091-decode-ways) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/hu6r1s/Problem-Solving/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/hu6r1s/Problem-Solving/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/hu6r1s/Problem-Solving/tree/master/0322-coin-change) |
 ## Memoization
