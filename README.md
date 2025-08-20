@@ -8,6 +8,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | ------- |
 | [0001-two-sum](https://github.com/hu6r1s/Problem-Solving/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/hu6r1s/Problem-Solving/tree/master/0013-roman-to-integer) |
+| [0049-group-anagrams](https://github.com/hu6r1s/Problem-Solving/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/hu6r1s/Problem-Solving/tree/master/0128-longest-consecutive-sequence) |
 | [0217-contains-duplicate](https://github.com/hu6r1s/Problem-Solving/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/hu6r1s/Problem-Solving/tree/master/0242-valid-anagram) |
@@ -25,6 +26,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | [0014-longest-common-prefix](https://github.com/hu6r1s/Problem-Solving/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/hu6r1s/Problem-Solving/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/hu6r1s/Problem-Solving/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0049-group-anagrams](https://github.com/hu6r1s/Problem-Solving/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/hu6r1s/Problem-Solving/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/hu6r1s/Problem-Solving/tree/master/0091-decode-ways) |
 | [0125-valid-palindrome](https://github.com/hu6r1s/Problem-Solving/tree/master/0125-valid-palindrome) |
@@ -39,6 +41,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | [0027-remove-element](https://github.com/hu6r1s/Problem-Solving/tree/master/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/hu6r1s/Problem-Solving/tree/master/0035-search-insert-position) |
 | [0039-combination-sum](https://github.com/hu6r1s/Problem-Solving/tree/master/0039-combination-sum) |
+| [0049-group-anagrams](https://github.com/hu6r1s/Problem-Solving/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/hu6r1s/Problem-Solving/tree/master/0053-maximum-subarray) |
 | [0079-word-search](https://github.com/hu6r1s/Problem-Solving/tree/master/0079-word-search) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/hu6r1s/Problem-Solving/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -98,6 +101,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0015-3sum](https://github.com/hu6r1s/Problem-Solving/tree/master/0015-3sum) |
+| [0049-group-anagrams](https://github.com/hu6r1s/Problem-Solving/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/hu6r1s/Problem-Solving/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/hu6r1s/Problem-Solving/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/hu6r1s/Problem-Solving/tree/master/0347-top-k-frequent-elements) |
