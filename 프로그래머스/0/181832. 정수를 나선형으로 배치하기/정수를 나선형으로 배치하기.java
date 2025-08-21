@@ -1,28 +1,36 @@
 class Solution {
     public int[][] solution(int n) {
-        int num = 1;
-        int colStart = 0;
-        int colEnd = n-1;
-        int rowStart = 0;
-        int rowEnd = n-1;
+        if (n == 1) {
+            return new int[][]{{1}};
+        }
+        
+        char direction = 'r';
+        int x = 0;
+        int y = 0;
         int[][] board = new int[n][n];
-        while (num <= n * n) {
-            for (int i = colStart; i <= colEnd; i++) {
-                board[rowStart][i] = num++;
+        for (int i = 0; i < n * n; i++) {
+            board[x][y] = i + 1;
+            if (direction == 'r') {
+                y++;
+                if (y == n-1 || board[x][y+1] != 0) {
+                   direction = 'd';
+                }
+            } else if (direction == 'd') {
+                x++;
+                if (x == n-1 || board[x+1][y] != 0) {
+                   direction = 'l';
+                }
+            } else if (direction == 'l') {
+                y--;
+                if (y == 0 || board[x][y-1] != 0) {
+                   direction = 'u';
+                }
+            } else if (direction == 'u') {
+                x--;
+                if (x == 0 || board[x-1][y] != 0) {
+                   direction = 'r';
+                }
             }
-            rowStart++;
-            for (int i = rowStart; i <= rowEnd; i++) {
-                board[i][colEnd] = num++;
-            }
-            colEnd--;
-            for (int i = colEnd; i >= colStart; i--) {
-                board[rowEnd][i] = num++;
-            }
-            rowEnd--;
-            for (int i = rowEnd; i >= rowStart; i--) {
-                board[i][colStart] = num++;
-            }
-            colStart++;
         }
         return board;
     }
