@@ -11,6 +11,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | [0049-group-anagrams](https://github.com/hu6r1s/Problem-Solving/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/hu6r1s/Problem-Solving/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/hu6r1s/Problem-Solving/tree/master/0139-word-break) |
+| [0208-implement-trie-prefix-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/hu6r1s/Problem-Solving/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/hu6r1s/Problem-Solving/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/hu6r1s/Problem-Solving/tree/master/0347-top-k-frequent-elements) |
@@ -32,6 +33,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | [0091-decode-ways](https://github.com/hu6r1s/Problem-Solving/tree/master/0091-decode-ways) |
 | [0125-valid-palindrome](https://github.com/hu6r1s/Problem-Solving/tree/master/0125-valid-palindrome) |
 | [0139-word-break](https://github.com/hu6r1s/Problem-Solving/tree/master/0139-word-break) |
+| [0208-implement-trie-prefix-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/hu6r1s/Problem-Solving/tree/master/0242-valid-anagram) |
 ## Array
 |  |
@@ -72,6 +74,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | ------- |
 | [0014-longest-common-prefix](https://github.com/hu6r1s/Problem-Solving/tree/master/0014-longest-common-prefix) |
 | [0139-word-break](https://github.com/hu6r1s/Problem-Solving/tree/master/0139-word-break) |
+| [0208-implement-trie-prefix-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0208-implement-trie-prefix-tree) |
 ## Stack
 |  |
 | ------- |
@@ -184,4 +187,8 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0322-coin-change](https://github.com/hu6r1s/Problem-Solving/tree/master/0322-coin-change) |
+## Design
+|  |
+| ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0208-implement-trie-prefix-tree) |
 <!---LeetCode Topics End-->
