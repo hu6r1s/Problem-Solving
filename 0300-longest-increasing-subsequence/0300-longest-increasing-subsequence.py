@@ -1,4 +1,4 @@
-from collections import deque
+from bisect import bisect_left
 
 class Solution:
     """
@@ -21,10 +21,20 @@ class Solution:
         
     #     return answer
 
+    # def lengthOfLIS(self, nums: List[int]) -> int:
+    #     dp = [1] * len(nums)
+    #     for cur in range(1, len(nums)):
+    #         for pre in range(cur):
+    #             if nums[pre] < nums[cur]:
+    #                 dp[cur] = max(1 + dp[pre], dp[cur])
+    #     return max(dp)
+
     def lengthOfLIS(self, nums: List[int]) -> int:
-        dp = [1] * len(nums)
-        for cur in range(1, len(nums)):
-            for pre in range(cur):
-                if nums[pre] < nums[cur]:
-                    dp[cur] = max(1 + dp[pre], dp[cur])
-        return max(dp)
+        sub = []
+        for num in nums:
+            index = bisect_left(sub, num)
+            if index == len(sub):
+                sub.append(num)
+            else:
+                sub[index] = num
+        return len(sub)
