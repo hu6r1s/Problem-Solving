@@ -19,6 +19,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/hu6r1s/Problem-Solving/tree/master/0013-roman-to-integer) |
+| [0062-unique-paths](https://github.com/hu6r1s/Problem-Solving/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/hu6r1s/Problem-Solving/tree/master/0070-climbing-stairs) |
 | [2383-add-two-integers](https://github.com/hu6r1s/Problem-Solving/tree/master/2383-add-two-integers) |
 ## String
@@ -153,6 +154,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/hu6r1s/Problem-Solving/tree/master/0053-maximum-subarray) |
+| [0062-unique-paths](https://github.com/hu6r1s/Problem-Solving/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/hu6r1s/Problem-Solving/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/hu6r1s/Problem-Solving/tree/master/0091-decode-ways) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/hu6r1s/Problem-Solving/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -211,4 +213,8 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/hu6r1s/Problem-Solving/tree/master/0011-container-with-most-water) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/hu6r1s/Problem-Solving/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
