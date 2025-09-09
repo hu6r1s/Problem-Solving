@@ -130,6 +130,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/hu6r1s/Problem-Solving/tree/master/0053-maximum-subarray) |
+| [0190-reverse-bits](https://github.com/hu6r1s/Problem-Solving/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/hu6r1s/Problem-Solving/tree/master/0191-number-of-1-bits) |
 | [0347-top-k-frequent-elements](https://github.com/hu6r1s/Problem-Solving/tree/master/0347-top-k-frequent-elements) |
 ## Heap (Priority Queue)
@@ -195,6 +196,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 ## Bit Manipulation
 |  |
 | ------- |
+| [0190-reverse-bits](https://github.com/hu6r1s/Problem-Solving/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/hu6r1s/Problem-Solving/tree/master/0191-number-of-1-bits) |
 ## Backtracking
 |  |
