@@ -39,6 +39,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | [0208-implement-trie-prefix-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/hu6r1s/Problem-Solving/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0242-valid-anagram](https://github.com/hu6r1s/Problem-Solving/tree/master/0242-valid-anagram) |
+| [0647-palindromic-substrings](https://github.com/hu6r1s/Problem-Solving/tree/master/0647-palindromic-substrings) |
 ## Array
 |  |
 | ------- |
@@ -109,6 +110,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | [0027-remove-element](https://github.com/hu6r1s/Problem-Solving/tree/master/0027-remove-element) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/hu6r1s/Problem-Solving/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0125-valid-palindrome](https://github.com/hu6r1s/Problem-Solving/tree/master/0125-valid-palindrome) |
+| [0647-palindromic-substrings](https://github.com/hu6r1s/Problem-Solving/tree/master/0647-palindromic-substrings) |
 ## String Matching
 |  |
 | ------- |
@@ -167,6 +169,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | [0198-house-robber](https://github.com/hu6r1s/Problem-Solving/tree/master/0198-house-robber) |
 | [0300-longest-increasing-subsequence](https://github.com/hu6r1s/Problem-Solving/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/hu6r1s/Problem-Solving/tree/master/0322-coin-change) |
+| [0647-palindromic-substrings](https://github.com/hu6r1s/Problem-Solving/tree/master/0647-palindromic-substrings) |
 ## Memoization
 |  |
 | ------- |
