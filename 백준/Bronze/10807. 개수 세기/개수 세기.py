@@ -1,4 +1,4 @@
-_ = int(input())
-li = list(map(int, input().split()))
-m = int(input())
-print(li.count(m))
+n = int(input())
+nums = sorted(list(map(int, input().split())))
+v = int(input())
+print(nums.count(v))
