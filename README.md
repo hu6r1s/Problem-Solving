@@ -10,6 +10,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | [0013-roman-to-integer](https://github.com/hu6r1s/Problem-Solving/tree/master/0013-roman-to-integer) |
 | [0049-group-anagrams](https://github.com/hu6r1s/Problem-Solving/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/hu6r1s/Problem-Solving/tree/master/0073-set-matrix-zeroes) |
+| [0076-minimum-window-substring](https://github.com/hu6r1s/Problem-Solving/tree/master/0076-minimum-window-substring) |
 | [0128-longest-consecutive-sequence](https://github.com/hu6r1s/Problem-Solving/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/hu6r1s/Problem-Solving/tree/master/0133-clone-graph) |
 | [0139-word-break](https://github.com/hu6r1s/Problem-Solving/tree/master/0139-word-break) |
@@ -34,6 +35,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | [0020-valid-parentheses](https://github.com/hu6r1s/Problem-Solving/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/hu6r1s/Problem-Solving/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/hu6r1s/Problem-Solving/tree/master/0049-group-anagrams) |
+| [0076-minimum-window-substring](https://github.com/hu6r1s/Problem-Solving/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/hu6r1s/Problem-Solving/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/hu6r1s/Problem-Solving/tree/master/0091-decode-ways) |
 | [0125-valid-palindrome](https://github.com/hu6r1s/Problem-Solving/tree/master/0125-valid-palindrome) |
@@ -245,4 +247,8 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/hu6r1s/Problem-Solving/tree/master/0133-clone-graph) |
+## Sliding Window
+|  |
+| ------- |
+| [0076-minimum-window-substring](https://github.com/hu6r1s/Problem-Solving/tree/master/0076-minimum-window-substring) |
 <!---LeetCode Topics End-->
