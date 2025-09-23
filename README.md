@@ -59,6 +59,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | [0039-combination-sum](https://github.com/hu6r1s/Problem-Solving/tree/master/0039-combination-sum) |
 | [0049-group-anagrams](https://github.com/hu6r1s/Problem-Solving/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/hu6r1s/Problem-Solving/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/hu6r1s/Problem-Solving/tree/master/0055-jump-game) |
 | [0073-set-matrix-zeroes](https://github.com/hu6r1s/Problem-Solving/tree/master/0073-set-matrix-zeroes) |
 | [0079-word-search](https://github.com/hu6r1s/Problem-Solving/tree/master/0079-word-search) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/hu6r1s/Problem-Solving/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -173,6 +174,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/hu6r1s/Problem-Solving/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/hu6r1s/Problem-Solving/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/hu6r1s/Problem-Solving/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/hu6r1s/Problem-Solving/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/hu6r1s/Problem-Solving/tree/master/0091-decode-ways) |
@@ -247,6 +249,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/hu6r1s/Problem-Solving/tree/master/0011-container-with-most-water) |
+| [0055-jump-game](https://github.com/hu6r1s/Problem-Solving/tree/master/0055-jump-game) |
 ## Combinatorics
 |  |
 | ------- |
