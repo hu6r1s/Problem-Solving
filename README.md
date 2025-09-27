@@ -105,6 +105,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/hu6r1s/Problem-Solving/tree/master/0021-merge-two-sorted-lists) |
+| [0023-merge-k-sorted-lists](https://github.com/hu6r1s/Problem-Solving/tree/master/0023-merge-k-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/hu6r1s/Problem-Solving/tree/master/0141-linked-list-cycle) |
 | [0206-reverse-linked-list](https://github.com/hu6r1s/Problem-Solving/tree/master/0206-reverse-linked-list) |
 ## Recursion
@@ -145,6 +146,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 ## Divide and Conquer
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/hu6r1s/Problem-Solving/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/hu6r1s/Problem-Solving/tree/master/0053-maximum-subarray) |
 | [0190-reverse-bits](https://github.com/hu6r1s/Problem-Solving/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/hu6r1s/Problem-Solving/tree/master/0191-number-of-1-bits) |
@@ -152,6 +154,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/hu6r1s/Problem-Solving/tree/master/0023-merge-k-sorted-lists) |
 | [0347-top-k-frequent-elements](https://github.com/hu6r1s/Problem-Solving/tree/master/0347-top-k-frequent-elements) |
 ## Bucket Sort
 |  |
@@ -267,4 +270,8 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/hu6r1s/Problem-Solving/tree/master/0207-course-schedule) |
+## Merge Sort
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/hu6r1s/Problem-Solving/tree/master/0023-merge-k-sorted-lists) |
 <!---LeetCode Topics End-->
