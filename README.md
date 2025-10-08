@@ -209,6 +209,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0098-validate-binary-search-tree) |
+| [0100-same-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0226-invert-binary-tree) |
 ## Depth-First Search
@@ -216,6 +217,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | ------- |
 | [0079-word-search](https://github.com/hu6r1s/Problem-Solving/tree/master/0079-word-search) |
 | [0098-validate-binary-search-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0098-validate-binary-search-tree) |
+| [0100-same-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0133-clone-graph](https://github.com/hu6r1s/Problem-Solving/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/hu6r1s/Problem-Solving/tree/master/0200-number-of-islands) |
@@ -231,6 +233,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0098-validate-binary-search-tree) |
+| [0100-same-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0226-invert-binary-tree) |
 ## Bit Manipulation
@@ -248,6 +251,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 ## Breadth-First Search
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0133-clone-graph](https://github.com/hu6r1s/Problem-Solving/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/hu6r1s/Problem-Solving/tree/master/0200-number-of-islands) |
