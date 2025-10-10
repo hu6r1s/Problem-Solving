@@ -2,13 +2,22 @@ from collections import deque
 
 def solution(cacheSize, cities):
     cache = deque(maxlen=cacheSize)
-    time = 0
-    for i in cities:
-        s = i.lower()
-        if s in cache:
-            cache.remove(s)
-            time += 1
+    cnt = 0
+        
+    for i in range(len(cities)):
+        cities[i] = cities[i].lower()
+        if cities[i] in cache:
+            cache.remove(cities[i])
+            cache.append(cities[i])
+            cnt += 1
         else:
-            time += 5
-        cache.append(s)
-    return time
+            cache.append(cities[i])
+            cnt += 5
+    return cnt
+    
+    
+    
+"""
+[, , , , , seoul, jeju, pangyo]
+5 + 5 + 5 + 1 + 1 + 1 + 1 + 1 + 1
+"""
