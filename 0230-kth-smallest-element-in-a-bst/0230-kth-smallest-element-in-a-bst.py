@@ -11,12 +11,12 @@ class Solution:
             if not node:
                 return
             
-            values.append(node.val)
             dfs(node.left)
+            values.append(node.val)
             dfs(node.right)
 
         
         dfs(root)
-        return sorted(values)[k-1]
+        return values[k-1]
         
         
