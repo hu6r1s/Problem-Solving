@@ -135,6 +135,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | [0125-valid-palindrome](https://github.com/hu6r1s/Problem-Solving/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/hu6r1s/Problem-Solving/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/hu6r1s/Problem-Solving/tree/master/0143-reorder-list) |
+| [0295-find-median-from-data-stream](https://github.com/hu6r1s/Problem-Solving/tree/master/0295-find-median-from-data-stream) |
 | [0647-palindromic-substrings](https://github.com/hu6r1s/Problem-Solving/tree/master/0647-palindromic-substrings) |
 ## String Matching
 |  |
@@ -157,6 +158,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | [0217-contains-duplicate](https://github.com/hu6r1s/Problem-Solving/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/hu6r1s/Problem-Solving/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/hu6r1s/Problem-Solving/tree/master/0268-missing-number) |
+| [0295-find-median-from-data-stream](https://github.com/hu6r1s/Problem-Solving/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/hu6r1s/Problem-Solving/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/hu6r1s/Problem-Solving/tree/master/0435-non-overlapping-intervals) |
 ## Divide and Conquer
@@ -171,6 +173,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/hu6r1s/Problem-Solving/tree/master/0023-merge-k-sorted-lists) |
+| [0295-find-median-from-data-stream](https://github.com/hu6r1s/Problem-Solving/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/hu6r1s/Problem-Solving/tree/master/0347-top-k-frequent-elements) |
 ## Bucket Sort
 |  |
@@ -278,6 +281,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/hu6r1s/Problem-Solving/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0295-find-median-from-data-stream](https://github.com/hu6r1s/Problem-Solving/tree/master/0295-find-median-from-data-stream) |
 ## Greedy
 |  |
 | ------- |
@@ -305,4 +309,8 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/hu6r1s/Problem-Solving/tree/master/0023-merge-k-sorted-lists) |
+## Data Stream
+|  |
+| ------- |
+| [0295-find-median-from-data-stream](https://github.com/hu6r1s/Problem-Solving/tree/master/0295-find-median-from-data-stream) |
 <!---LeetCode Topics End-->
