@@ -44,6 +44,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | [0139-word-break](https://github.com/hu6r1s/Problem-Solving/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/hu6r1s/Problem-Solving/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0212-word-search-ii](https://github.com/hu6r1s/Problem-Solving/tree/master/0212-word-search-ii) |
 | [0242-valid-anagram](https://github.com/hu6r1s/Problem-Solving/tree/master/0242-valid-anagram) |
 | [0647-palindromic-substrings](https://github.com/hu6r1s/Problem-Solving/tree/master/0647-palindromic-substrings) |
 | [1250-longest-common-subsequence](https://github.com/hu6r1s/Problem-Solving/tree/master/1250-longest-common-subsequence) |
@@ -73,6 +74,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/hu6r1s/Problem-Solving/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0198-house-robber](https://github.com/hu6r1s/Problem-Solving/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/hu6r1s/Problem-Solving/tree/master/0200-number-of-islands) |
+| [0212-word-search-ii](https://github.com/hu6r1s/Problem-Solving/tree/master/0212-word-search-ii) |
 | [0213-house-robber-ii](https://github.com/hu6r1s/Problem-Solving/tree/master/0213-house-robber-ii) |
 | [0217-contains-duplicate](https://github.com/hu6r1s/Problem-Solving/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/hu6r1s/Problem-Solving/tree/master/0238-product-of-array-except-self) |
@@ -95,6 +97,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | [0073-set-matrix-zeroes](https://github.com/hu6r1s/Problem-Solving/tree/master/0073-set-matrix-zeroes) |
 | [0079-word-search](https://github.com/hu6r1s/Problem-Solving/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/hu6r1s/Problem-Solving/tree/master/0200-number-of-islands) |
+| [0212-word-search-ii](https://github.com/hu6r1s/Problem-Solving/tree/master/0212-word-search-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/hu6r1s/Problem-Solving/tree/master/0417-pacific-atlantic-water-flow) |
 | [1791-richest-customer-wealth](https://github.com/hu6r1s/Problem-Solving/tree/master/1791-richest-customer-wealth) |
 ## Trie
@@ -104,6 +107,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | [0139-word-break](https://github.com/hu6r1s/Problem-Solving/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/hu6r1s/Problem-Solving/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0212-word-search-ii](https://github.com/hu6r1s/Problem-Solving/tree/master/0212-word-search-ii) |
 ## Stack
 |  |
 | ------- |
@@ -271,6 +275,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | ------- |
 | [0039-combination-sum](https://github.com/hu6r1s/Problem-Solving/tree/master/0039-combination-sum) |
 | [0079-word-search](https://github.com/hu6r1s/Problem-Solving/tree/master/0079-word-search) |
+| [0212-word-search-ii](https://github.com/hu6r1s/Problem-Solving/tree/master/0212-word-search-ii) |
 ## Breadth-First Search
 |  |
 | ------- |
