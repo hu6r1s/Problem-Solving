@@ -1,9 +1,14 @@
 from collections import deque
 
-def bfs(x, y):
+n = int(input())
+board = [list(input()) for _ in range(n)]
+visited = [[0] * n for _ in range(n)]
+dx, dy = [0, 0, 1, -1], [1, -1, 0, 0]
+
+def bfs(a, b):
     queue = deque()
-    queue.append([x, y])
-    visited[x][y] = 1
+    queue.append([a, b])
+    visited[a][b] = True
     while queue:
         x, y = queue.popleft()
         for i in range(4):
@@ -11,36 +16,30 @@ def bfs(x, y):
             ny = y + dy[i]
             if nx < 0 or nx >= n or ny < 0 or ny >= n:
                 continue
-            if visited[nx][ny] or graph[x][y] != graph[nx][ny]:
+            if board[x][y] != board[nx][ny] or visited[nx][ny]:
                 continue
-            visited[nx][ny] = 1
             queue.append([nx, ny])
+            visited[nx][ny] = True
 
-n = int(input())
-graph = [list(input()) for _ in range(n)]
-visited = [[0]*n for _ in range(n)]
-dx = [0, 0, -1, 1]
-dy = [1, -1, 0, 0]
-count1 = 0
-count2 = 0
+
+count_1 = 0
 
 for i in range(n):
     for j in range(n):
         if not visited[i][j]:
             bfs(i, j)
-            count1 += 1
+            count_1 += 1
 
-visited = [[0]*n for _ in range(n)]
-
+visited = [[0] * n for _ in range(n)]
+count_2 = 0
 for i in range(n):
     for j in range(n):
-        if graph[i][j] == "R":
-            graph[i][j] = "G"
+        if board[i][j] == "R":
+            board[i][j] = "G"
 
 for i in range(n):
     for j in range(n):
         if not visited[i][j]:
             bfs(i, j)
-            count2 += 1
-print(count1)
-print(count2)
+            count_2 += 1
+print(count_1, count_2)
