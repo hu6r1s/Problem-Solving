@@ -146,6 +146,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/hu6r1s/Problem-Solving/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0572-subtree-of-another-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0572-subtree-of-another-tree) |
 ## Binary Search
 |  |
 | ------- |
@@ -231,6 +232,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | [0226-invert-binary-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/hu6r1s/Problem-Solving/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0572-subtree-of-another-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0572-subtree-of-another-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -246,6 +248,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | [0230-kth-smallest-element-in-a-bst](https://github.com/hu6r1s/Problem-Solving/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0417-pacific-atlantic-water-flow](https://github.com/hu6r1s/Problem-Solving/tree/master/0417-pacific-atlantic-water-flow) |
+| [0572-subtree-of-another-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0572-subtree-of-another-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -262,6 +265,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | [0226-invert-binary-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/hu6r1s/Problem-Solving/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0572-subtree-of-another-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0572-subtree-of-another-tree) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -325,4 +329,8 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/hu6r1s/Problem-Solving/tree/master/0295-find-median-from-data-stream) |
+## Hash Function
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/hu6r1s/Problem-Solving/tree/master/0572-subtree-of-another-tree) |
 <!---LeetCode Topics End-->
