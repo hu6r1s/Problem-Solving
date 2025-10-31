@@ -33,6 +33,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 ## String
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/hu6r1s/Problem-Solving/tree/master/0005-longest-palindromic-substring) |
 | [0013-roman-to-integer](https://github.com/hu6r1s/Problem-Solving/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/hu6r1s/Problem-Solving/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/hu6r1s/Problem-Solving/tree/master/0020-valid-parentheses) |
@@ -133,6 +134,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/hu6r1s/Problem-Solving/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/hu6r1s/Problem-Solving/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/hu6r1s/Problem-Solving/tree/master/0015-3sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/hu6r1s/Problem-Solving/tree/master/0019-remove-nth-node-from-end-of-list) |
@@ -204,6 +206,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/hu6r1s/Problem-Solving/tree/master/0005-longest-palindromic-substring) |
 | [0053-maximum-subarray](https://github.com/hu6r1s/Problem-Solving/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/hu6r1s/Problem-Solving/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/hu6r1s/Problem-Solving/tree/master/0062-unique-paths) |
