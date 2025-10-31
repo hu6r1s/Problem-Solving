@@ -23,4 +23,4 @@ class Solution:
                     max_s, max_e = start, end
                 start, end = start - 1, end + 1
 
-        return text[max_s : max_e + 1]
+        return s[max_s : max_e + 1]
