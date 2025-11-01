@@ -25,6 +25,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/hu6r1s/Problem-Solving/tree/master/0013-roman-to-integer) |
+| [0048-rotate-image](https://github.com/hu6r1s/Problem-Solving/tree/master/0048-rotate-image) |
 | [0062-unique-paths](https://github.com/hu6r1s/Problem-Solving/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/hu6r1s/Problem-Solving/tree/master/0070-climbing-stairs) |
 | [0268-missing-number](https://github.com/hu6r1s/Problem-Solving/tree/master/0268-missing-number) |
@@ -62,6 +63,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | [0033-search-in-rotated-sorted-array](https://github.com/hu6r1s/Problem-Solving/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/hu6r1s/Problem-Solving/tree/master/0035-search-insert-position) |
 | [0039-combination-sum](https://github.com/hu6r1s/Problem-Solving/tree/master/0039-combination-sum) |
+| [0048-rotate-image](https://github.com/hu6r1s/Problem-Solving/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/hu6r1s/Problem-Solving/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/hu6r1s/Problem-Solving/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/hu6r1s/Problem-Solving/tree/master/0055-jump-game) |
@@ -97,6 +99,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/hu6r1s/Problem-Solving/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/hu6r1s/Problem-Solving/tree/master/0073-set-matrix-zeroes) |
 | [0079-word-search](https://github.com/hu6r1s/Problem-Solving/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/hu6r1s/Problem-Solving/tree/master/0200-number-of-islands) |
