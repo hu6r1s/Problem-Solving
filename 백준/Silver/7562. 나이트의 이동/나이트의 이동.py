@@ -1,31 +1,28 @@
 from collections import deque
 
-def bfs():
+t = int(input())
+dx, dy = [-2, -1, -2, -1, 1, 2, 1, 2], [1, 2, -1, -2, 2, 1, -2, -1]
+def bfs(a, b):
     queue = deque()
-    queue.append([s_x, s_y])
+    queue.append([a, b])
     while queue:
         x, y = queue.popleft()
-        if x == e_x and y == e_y:
-            return graph[x][y]
+        if x == ex and y == ey:
+            return board[ex][ey]
         for i in range(8):
             nx = x + dx[i]
             ny = y + dy[i]
             if nx < 0 or nx >= l or ny < 0 or ny >= l:
                 continue
-            if graph[nx][ny]:
+            if board[nx][ny] > 0:
                 continue
-            graph[nx][ny] = graph[x][y] + 1
+            board[nx][ny] = board[x][y] + 1
             queue.append([nx, ny])
 
 
-t = int(input())
 for _ in range(t):
     l = int(input())
-    s_x, s_y = map(int, input().split())
-    e_x, e_y = map(int, input().split())
-    dx = [-2, -2, -1, -1, 1, 1, 2, 2]
-    dy = [-1, 1, -2, 2, -2, 2, -1, 1]
-
-    graph = [[0]*l for _ in range(l)]
-
-    print(bfs())
+    board = [[0] * l for _ in range(l)]
+    x, y = map(int, input().split())
+    ex, ey = map(int, input().split())
+    print(bfs(x, y))
