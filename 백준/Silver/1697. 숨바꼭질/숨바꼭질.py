@@ -1,18 +1,20 @@
 from collections import deque
 
 n, k = map(int, input().split())
-dist = [0]*100001
+visited = [0] * 100001
 
 def bfs():
     queue = deque()
     queue.append(n)
+    cnt = 0
     while queue:
-        q = queue.popleft()
-        if q == k:
-            return dist[q]
-        for nq in (q-1, q+1, q*2):
-            if 0 <= nq <= 100000 and not dist[nq]:
-                dist[nq] = dist[q] + 1
-                queue.append(nq)
+        x = queue.popleft()
+        if x == k:
+            return visited[k]
+        for nx in [x-1, x+1, 2*x]:
+            if nx > 100000 or nx < 0 or visited[nx] != 0:
+                continue
+            visited[nx] = visited[x] + 1
+            queue.append(nx)
 
 print(bfs())
