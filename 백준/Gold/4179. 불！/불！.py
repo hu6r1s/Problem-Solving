@@ -1,24 +1,12 @@
 from collections import deque
-import sys
-input = sys.stdin.readline
 
 r, c = map(int, input().split())
-graph = [list(input().rstrip()) for _ in range(r)]
-dx = [0, 0, 1, -1]
-dy = [1, -1, 0, 0]
+dx, dy = [-1, 1, 0, 0], [0, 0, 1, -1]
+board = [list(input()) for _ in range(r)]
 
-jihoon = deque()
-fire = deque()
-f_time = [[0]*c for _ in range(r)]
-j_time = [[0]*c for _ in range(r)]
-for i in range(r):
-    for j in range(c):
-        if graph[i][j] == "J":
-            jihoon.append([i, j])
-            j_time[i][j] = 1
-        if graph[i][j] == "F":
-            fire.append([i, j])
-            f_time[i][j] = 1
+fire_times = [[0] * c for _ in range(r)]
+jihoon_times = [[0] * c for _ in range(r)]
+fire, jihoon = deque(), deque()
 
 def bfs():
     while fire:
@@ -28,9 +16,10 @@ def bfs():
             ny = y + dy[i]
             if nx < 0 or nx >= r or ny < 0 or ny >= c:
                 continue
-            if graph[nx][ny] != "#" and not f_time[nx][ny]:
-                f_time[nx][ny] = f_time[x][y] + 1
-                fire.append([nx, ny])
+            if board[nx][ny] == "#" or fire_times[nx][ny] > 0:
+                continue
+            fire_times[nx][ny] = fire_times[x][y] + 1
+            fire.append([nx, ny])
 
     while jihoon:
         x, y = jihoon.popleft()
@@ -38,12 +27,32 @@ def bfs():
             nx = x + dx[i]
             ny = y + dy[i]
             if nx < 0 or nx >= r or ny < 0 or ny >= c:
-                return j_time[x][y]
-            if graph[nx][ny] == "#" or j_time[nx][ny]:
+                return jihoon_times[x][y]
+            if board[nx][ny] == "#" or jihoon_times[nx][ny] > 0:
                 continue
-            if not f_time[nx][ny] or f_time[nx][ny] > j_time[x][y] + 1:
-                j_time[nx][ny] = j_time[x][y] + 1
-                jihoon.append([nx, ny])
-    return "IMPOSSIBLE"
+            if fire_times[nx][ny] != 0 and fire_times[nx][ny] <= jihoon_times[x][y] + 1:
+                continue
+            jihoon_times[nx][ny] = jihoon_times[x][y] + 1
+            jihoon.append([nx, ny])
+    else:
+        return "IMPOSSIBLE"
+
+
+for i in range(r):
+    for j in range(c):
+        if board[i][j] == "F":
+            fire.append([i, j])
+            fire_times[i][j] = 1
+        if board[i][j] == "J":
+            jihoon.append([i, j])
+            jihoon_times[i][j] = 1
 
 print(bfs())
+"""
+2 1
+3 2
+
+1 2
+2 3
+지훈이가 지나간 시간이 불보다 크면 못지나감. 
+"""
