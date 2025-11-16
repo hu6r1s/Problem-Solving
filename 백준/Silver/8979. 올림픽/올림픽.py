@@ -8,15 +8,9 @@ for _ in range(n):
     medal.append((c, g, s, d))
 
 medal.sort(key=lambda x: (-x[1], -x[2], -x[3]))
-rank = 1
-for i in range(1, n):
-    if medal[i][1] != medal[i-1][1]:
-        rank = i + 1
 
-    if medal[i][0] == k:
-        result = rank
+idx = [medal[i][0] for i in range(n)].index(k)
+for i in range(n):
+    if medal[i][1:] == medal[idx][1:]:
+        print(i+1)
         break
-
-if medal[0][0] == k:
-    result = 1
-print(result)
