@@ -1,27 +1,25 @@
 from collections import deque
 
-
 n, k = map(int, input().split())
-graph = [0 for _ in range(100001)]
+board = [0] * 100001
 
-def bfs():
+def bfs(n):
     queue = deque()
     queue.append(n)
     while queue:
         x = queue.popleft()
         if x == k:
-            return graph[x]
+            return board[x]
         for nx in (2*x, x-1, x+1):
             if nx < 0 or nx >= 100001:
                 continue
-            if graph[nx]:
+            if board[nx]:
                 continue
             if nx == 2 * x:
-                graph[nx] = graph[x]
+                board[nx] = board[x]
                 queue.append(nx)
             else:
-                graph[nx] = graph[x] + 1
+                board[nx] = board[x] + 1
                 queue.append(nx)
 
-
-print(bfs())
+print(bfs(n))
