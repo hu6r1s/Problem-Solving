@@ -1,82 +1,41 @@
-# from collections import deque
-#
-# k = int(input())
-# w, h = map(int, input().split())
-# graph = [list(map(int, input().split())) for _ in range(h)]
-# visited = [[0]*w for _ in range(h)]
-# dx = [-2, -2, -1, -1, 1, 1, 2, 2]
-# dy = [-1, 1, -2, 2, -2, 2, -1, 1]
-#
-#
-# def bfs():
-#     queue = deque()
-#     queue.append([0, 0])
-#     visited[0][0] = 1
-#     while queue:
-#         x, y = queue.popleft()
-#         if x == h-1 and y == w-1:
-#             return visited[h-1][w-1] + 1
-#         for _ in range(k):
-#             for i in range(8):
-#                 nx = x + dx[i]
-#                 ny = y + dy[i]
-#                 if nx < 0 or nx >= h or ny < 0 or ny >= w:
-#                     continue
-#                 if graph[nx][ny] or visited[nx][ny]:
-#                     continue
-#                 visited[nx][ny] = visited[x][y] + 1
-#                 queue.append([nx, ny])
-#         else:
-#             for ix, iy in ((-1, 0), (1, 0), (0, -1), (0, 1)):
-#                 nx = x + ix
-#                 ny = y + iy
-#                 if nx < 0 or nx >= h or ny < 0 or ny >= w:
-#                     continue
-#                 if graph[nx][ny] or visited[nx][ny]:
-#                     continue
-#                 visited[nx][ny] = visited[x][y] + 1
-#                 queue.append([nx, ny])
-#     return -1
-# print(bfs())
 from collections import deque
 
 k = int(input())
 w, h = map(int, input().split())
-graph = [list(map(int, input().split())) for _ in range(h)]
-visited = [[[0]*w for _ in range(h)] for _ in range(k+1)]
-h_dist = [[-2, -1], [-2, 1], [-1, -2], [-1, 2], [1, -2], [1, 2], [2, -1], [2, 1]]
-m_dist = [[-1, 0], [1, 0], [0, -1], [0, 1]]
+board = [list(map(int, input().split())) for _ in range(h)]
+dx, dy = [-2, -1, 1, 2, -2, -1, 1, 2], [1, 2, 2, 1, -1, -2, -2, -1]
+visited = [[[0] * w for _ in range(h)] for _ in range(k+1)]
 
-def bfs():
+def bfs(a, b, c):
     queue = deque()
-    queue.append([0, 0, 0])
-    visited[0][0][0] = 1
+    queue.append((a, b, c))
+    visited[c][a][b] = 1
     while queue:
-        z, x, y = queue.popleft()
-        if x == h-1 and y == w-1:
+        x, y, z = queue.popleft()
+        if x == h - 1 and y == w - 1:
             return visited[z][x][y] - 1
 
-        for dx, dy in m_dist:
-            nx = x + dx
-            ny = y + dy
+        for ix, iy in ((-1, 0), (1, 0), (0, -1), (0, 1)):
+            nx = x + ix
+            ny = y + iy
             if nx < 0 or nx >= h or ny < 0 or ny >= w:
                 continue
-            if visited[z][nx][ny] or graph[nx][ny]:
+            if board[nx][ny] == 1 or visited[z][nx][ny]:
                 continue
             visited[z][nx][ny] = visited[z][x][y] + 1
-            queue.append([z, nx, ny])
+            queue.append((nx, ny, z))
 
         if z < k:
-            for ix, iy in h_dist:
-                hx = x + ix
-                hy = y + iy
-                if hx < 0 or hx >= h or hy < 0 or hy >= w:
+            for i in range(8):
+                qx = x + dx[i]
+                qy = y + dy[i]
+                if qx < 0 or qx >= h or qy < 0 or qy >= w:
                     continue
-                if graph[hx][hy] or visited[z+1][hx][hy]:
+                if board[qx][qy] == 1 or visited[z+1][qx][qy]:
                     continue
-                visited[z+1][hx][hy] = visited[z][x][y] + 1
-                queue.append([z+1, hx, hy])
+                visited[z+1][qx][qy] = visited[z][x][y] + 1
+                queue.append((qx, qy, z+1))
+
     return -1
 
-
-print(bfs())
+print(bfs(0, 0, 0))
