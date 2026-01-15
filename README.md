@@ -347,5 +347,6 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 ## Database
 |  |
 | ------- |
+| [0584-find-customer-referee](https://github.com/hu6r1s/Problem-Solving/tree/master/0584-find-customer-referee) |
 | [1757-recyclable-and-low-fat-products](https://github.com/hu6r1s/Problem-Solving/tree/master/1757-recyclable-and-low-fat-products) |
 <!---LeetCode Topics End-->
