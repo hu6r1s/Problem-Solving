@@ -2,14 +2,14 @@ n = int(input())
 stack = []
 result = []
 num = 1
-for _ in range(n):
-    x = int(input())
-    while num <= x:
+for i in range(n):
+    k = int(input())
+    while num <= k:
         stack.append(num)
         result.append("+")
         num += 1
 
-    if stack[-1] == x:
+    if k <= stack[-1]:
         stack.pop()
         result.append("-")
     else:
@@ -19,3 +19,14 @@ if stack:
     print("NO")
 else:
     print(*result, sep="\n")
+
+
+
+"""
+1 2 3 4
+1 2
+1 2 5 6
+1 2 5 7 
+7
++ + + + -
+"""
