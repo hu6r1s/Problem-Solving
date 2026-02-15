@@ -2,12 +2,11 @@ import sys
 input = sys.stdin.readline
 
 n = int(input())
-count = [0] * 10001
-sorted_li = list()
+s = [0] * 10001
 for _ in range(n):
-    i = int(input())
-    count[i] += 1
+    s[int(input())] += 1
+
 for i in range(10001):
-    if count[i] != 0:
-        for _ in range(count[i]):
-            print(i)
+    while s[i]:
+        print(i)
+        s[i] -= 1
