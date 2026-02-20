@@ -1,35 +1,46 @@
 import sys
 from collections import deque
-sys.setrecursionlimit(10 ** 6)
+sys.setrecursionlimit(10**5)
 input = sys.stdin.readline
 
-def dfs(graph, v, visited):
-  visited[v] = True
-  print(v, end=' ')
-  for i in graph[v]:
-    if not visited[i]:
-      dfs(graph, i, visited)
-
-def bfs(graph, v, visited):
-  queue = deque([v])
-  visited[v] = True
-  while queue:
-    y = queue.popleft()
-    print(y, end=' ')
-    for i in graph[y]:
-      if not visited[i]:
-        queue.append(i)
-        visited[i] = True
-
 n, m, v = map(int, input().split())
-graph = [[] for _ in range(n + 1)]
-visited1, visited2 = [False] * (n + 1), [False] * (n + 1)
+graph = [[] for _ in range(n+1)]
+
 for i in range(m):
-  a, b = map(int, input().split())
-  graph[a].append(b)
-  graph[b].append(a)
-for g in graph:
-  g.sort()
-dfs(graph, v, visited1)
+    a, b = map(int, input().split())
+    graph[a].append(b)
+    graph[b].append(a)
+
+graph = [sorted(g) for g in graph]
+
+visited = [False] * (n+1)
+
+
+def dfs(v):
+    visited[v] = True
+    print(v, end=" ")
+
+    for i in graph[v]:
+        if not visited[i]:
+            dfs(i)
+
+
+dfs(v)
+visited = [False] * (n+1)
+
+
+def bfs(v):
+    queue = deque()
+    queue.append(v)
+    visited[v] = True
+    while queue:
+        x = queue.popleft()
+        print(x, end=" ")
+        for i in graph[x]:
+            if not visited[i]:
+                queue.append(i)
+                visited[i] = True
+
+
 print()
-bfs(graph, v, visited2)
+bfs(v)
